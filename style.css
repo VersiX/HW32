@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header__suptitle {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #303030;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4px;
+  margin-top: 58px;
+  margin-bottom: 5px;
+}
+
+.header__title {
+  font-size: 86px;
+  font-family: "Poppins";
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.047;
+  letter-spacing: 4px;
+  margin-top: 10px;
+}
+
+.svg-triangle {
+  position: absolute;
+  left: 5%;
+  top: 231px;
+  z-index: -1;
+}
+
+.svg-cross {
+  position: absolute;
+  right: 10%;
+  top: 34px;
+  z-index: -2;
+}
+
+.svg-arr {
+  height: 96px;
+  width: 96px;
+  z-index: 10;
+  position: absolute;
+}
+
+#larr {
+  left: 20px;
+}
+
+#rarr {
+  right: 20px;
+}
+
+.main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.slider-wrapper {
+  width: 100vw;
+  overflow: visible;
+}
+
+.slider-item {
+  width: 22.91vw;
+  height: 20.83vw;
+  margin: 0 44px 0 44px;
+}
+
+.slider-item:not(.slick-active) {
+  opacity: 0.2;
+}
+/*# sourceMappingURL=style.css.map */
